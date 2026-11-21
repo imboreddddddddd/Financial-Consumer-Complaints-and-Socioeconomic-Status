@@ -103,7 +103,7 @@ CREATE TABLE complaints (
 CREATE TABLE stg_acs (
     state          VARCHAR(2)   COMMENT 'Census state code',
     NAME           VARCHAR(60)  COMMENT 'State name',
-    B01003_001E    VARCHAR(20)  COMMENT 'Total population 25+',
+    B01003_001E    VARCHAR(20)  COMMENT 'Total population',
     B19013_001E    VARCHAR(20)  COMMENT 'Median household income (USD)',
     S1701_C03_001E VARCHAR(20)  COMMENT 'Percent below poverty line',
     B15003_001E    VARCHAR(20)  COMMENT 'Adults 25+ (total)',

@@ -123,7 +123,7 @@ CREATE TABLE stg_complaints (
     issue                      VARCHAR(255),
     sub_issue                  VARCHAR(255),
     company                    VARCHAR(255),
-    state                      VARCHAR(10),
+    state                      VARCHAR(50),
     zip_code                   VARCHAR(10),
     tags                       VARCHAR(100),
     submitted_via              VARCHAR(50),

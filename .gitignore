@@ -217,6 +217,13 @@ docs/_build/
 # Secrets / local config
 .env
 .env.*
+!.env.example
+
+# Data pulled from APIs
+data/**
+!data/.gitkeep
+!data/staging/
+!data/staging/.gitkeep
 
 # Persisted CLI conversation state
 .conversations/
